@@ -1,3 +1,4 @@
 StockTracker.exe usage
 stocktracker.exe -sym=SYM1,SYM2,SYM3,... [-csvfile=pathtofile/name_of_csvfile]
 
+This program also makes use of the urllib for GoLang.  The library is available on the GitHub
