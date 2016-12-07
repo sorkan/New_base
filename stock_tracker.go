@@ -90,7 +90,7 @@ func main() {
 	}
 
 	// create file for writing
-	ofile,err := os.Create(ofileName)
+	ofile,err := os.Create(outputFile)
 	if err != nil {
 		log.Fatalln("Unable to create output file", err.Error())
 		os.Exit(-1)
@@ -106,6 +106,6 @@ func main() {
 		}
 	}
 
-	fmt.Printf("\n\nRun results written to: %s\n\n", ofileName)
+	fmt.Printf("\n\nRun results written to: %s\n\n", outputFile)
 }
 
