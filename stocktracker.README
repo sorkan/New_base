@@ -1,0 +1,3 @@
+StockTracker.exe usage
+stocktracker.exe -sym=SYM1,SYM2,SYM3,... [-csvfile=pathtofile/name_of_csvfile]
+
